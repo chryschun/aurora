@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Naturebent Background</name>
+		<description>Basic background of Celtic Druids.</description>
+		<author url="https://raw.githubusercontent.com/chryschun/aurora/main/naturebent.index">Chrissy Winter</author>
+		<update version="0.0.1">
+			<file name="naturebent.index" url="https://raw.githubusercontent.com/chryschun/aurora/main/naturebent.index"/>
+		</update>
+	</info>
+
+	<element name="Naturebent" type="Background" source="Memphis 1985" id="ID_M85_BACKGROUND_NATUREBENT">
+		<description>
+			<p>Your mother raised you in the tradition of Celtic Druidry</p>
+			<ul>
+				<li><strong>Skill Proficiencies:</strong> You can select any two skills to be proficient with</li>
+				<li><strong>Tool Proficiencies (Optional):</strong> One type of artisan’s tools or one musical instrument</li>
+			</ul>
+			<div element="ID_NV_TGHC_BACKGROUND_FEATURE_NATUREBENT" />
+		</description>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Naturebent)" supports="Skill" number="2" />
+		</rules>
+	</element>
+</elements>

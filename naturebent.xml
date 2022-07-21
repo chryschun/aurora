@@ -2,13 +2,13 @@
   <info>
     <name>Bodyguard</name>
     <description>Bodyguard Background</description>
-    <author url="https://www.reddit.com/r/DnD/comments/7uxd9p/5e_background_the_bodyguard/">u/Moses_The_Wise</author>
+    <author Christian Winter </author>
     <update version="0.0.1">
       <file name="naturebent.xml" url="https://raw.githubusercontent.com/chryschun/aurora/main/naturebent.xml"/>
     </update>
   </info>
   
-<element name="Bodyguard" type="Background" source="Custom Backgrounds" id="ID_RDDT_BACKGROUND_NATUREBENT">
+<element name="Naturebent" type="Naturebent" source="Custom Backgrounds" id="ID_RDDT_BACKGROUND_NATUREBENT">
   <description>
     <p>You have spent your life protecting someone else’s. Perhaps it was a noble, or a powerful crime boss; maybe even a brutal warlord. Maybe instead of someone more powerful than you, it was a physically weaker companion or family member. Whatever the case, your life up to this point has been focused around protecting someone.</p>
     <ul class="unstyled">

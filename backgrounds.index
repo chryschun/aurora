@@ -4,7 +4,7 @@
 		<name>Backgrounds</name>
 		<update version="0.0.1">
 			<file name="backgrounds.index" 
-			url="https://raw.githubusercontent.com/chryschun/aurora/main/naturebent.index"
+			url="https://raw.githubusercontent.com/chryschun/aurora/main/backgrounds.index"
 			/>
 		</update>
 	</info>

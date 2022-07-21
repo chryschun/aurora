@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Backgrounds</name>
+		<update version="0.0.1">
+			<file name="backgrounds.index" 
+			url="https://raw.githubusercontent.com/chryschun/aurora/main/naturebent.index"
+			/>
+		</update>
+	</info>
+	<files>
+		<file name="naturebent.xml"
+		url="https://raw.githubusercontent.com/chryschun/aurora/main/naturebent.xml"
+		/>

@@ -18,8 +18,8 @@
 			</ul>
 		</description>
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Champion)" supports="Skill" number="2" />
-			<select type="Proficiency" name="Tool Proficiency (Champion)" supports="Tool" optional="true"/>
+			<select type="Proficiency" name="Skill Proficiency (Naturebent)" supports="Skill" number="2" />
+			<select type="Proficiency" name="Tool Proficiency (Naturebent)" supports="Tool" optional="true"/>
 		</rules>
 	</element>
 </elements>

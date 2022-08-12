@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Naturebent Background</name>
-		<description>The background of Courtney McSmith, Celtic druid.</description>
+		<name>Custom Background</name>
+		<description>A way to select your own attributes for a custom background.</description>
 		<author url="https://www.reddit.com/user/strawberryexplosion/">Chrissy Winter</author>
 		<update version="0.0.1">
 			<file name="naturebent-background.xml" url="https://raw.githubusercontent.com/chryschun/aurora/main/naturebent.xml" />
 		</update>
 	</info>
 
-	<element name="Naturebent" type="Background" source="Courtney McSmith" id="ID_NV_TGHC_BACKGROUND_NATUREBENT">
+	<element name="Custom" type="Background" source="Custom Background" id="ID_NV_TGHC_BACKGROUND_CUSTOM">
 		<description>
-			<p>You were raised in the matriarchal druid tradition stemming from ancient Celtic magicks.</p>
 			<ul>
 				<li><strong>Skill Proficiencies:</strong> You can select any two skills to be proficient with</li>
 				<li><strong>Tool Proficiencies (Optional):</strong> One type of artisan’s tools or one musical instrument</li>
 			</ul>
 		</description>
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Naturebent)" supports="Skill" number="2" />
-			<select type="Proficiency" name="Tool Proficiency (Naturebent)" supports="Tool" optional="true"/>
+			<select type="Proficiency" name="Skill Proficiency (Custom)" supports="Skill" number="2" />
+			<select type="Proficiency" name="Tool Proficiency (Custom)" supports="Tool" optional="true"/>
 		</rules>
 	</element>
 </elements>

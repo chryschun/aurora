@@ -16,36 +16,10 @@
 				<li><strong>Skill Proficiencies:</strong> You can select any two skills to be proficient with</li>
 				<li><strong>Tool Proficiencies (Optional):</strong> One type of artisan’s tools or one musical instrument</li>
 			</ul>
-			<div element="ID_NV_TGHC_BACKGROUND_FEATURE_GUILD_MEMBER" />
 		</description>
 		<rules>
 			<select type="Proficiency" name="Skill Proficiency (Champion)" supports="Skill" number="2" />
 			<select type="Proficiency" name="Tool Proficiency (Champion)" supports="Tool" optional="true"/>
-		</rules>
-	</element>
-	<element name="Feature: Guild Member" type="Background Feature" source="The Great Houses Campaign" id="ID_NV_TGHC_BACKGROUND_FEATURE_GUILD_MEMBER">
-		<description>
-			<p>As part of the Tribe all workers are included in five different Guilds. Usually you either chosen to be part of the particular Guild, because of your skills or personality that fits, or you can ask Guild Leader to apply for any other Guild, if Guild Leader finds your skills to be useful, he will ask Tribe Leader to allow change of the Guilds. Different Tribes have different hierarchy systems, but non-workers are always at the bottom of it and Tribe Leader at the top. These Guilds are:</p>
-			<ul>
-				<li><strong>Hunters' Guild.</strong> Members of Hunters' Guild responsible for providing food for the Tribe and scaring away predatory animals. Even though Foragers gather some fruit and berries, meat brought by the Hunters is the biggest part of other tribe's diet. Rarely Hunters can be used as last resort guards or assassins, if Tribe Leader requires it. Guild prefers those with calm, patient, quick-to-react personalities or overall dextrous people.</li>
-				<li><strong>Foragers' Guild.</strong> Members of Foragers' Guild responsible for exploring tribe's territory for hazards and providing resources, from plant food, like fruit and mushrooms, to building resources, like stone and wood. Foragers usually don't get their part of respect, but without them any project would slow down to a crawl. Sometimes Foragers are used for scouting enemy territory or building, if Tribe Leader requires it. Guild prefers those with tactical, cautious, energetic personalities or overall dextrous people, who know right time to retreat.</li>
-				<li><strong>Warriors' Guild.</strong> Members of Warriors' Guild act as law keepers and general fighting force of the tribe. Tribe Leader has right to militarize Guild when needed, otherwise they're ordered by Guild Leader. Sometimes Warriors used as bodyguards or wardens, if required. Guild prefers those with aggressive, initiative personalities with sense of justice or people with strong builds.</li>
-				<li><strong>Healers' Guild.</strong> Members of Healers' Guild responsible for producing medicine and healing other members of the tribe. Good healers are rare and nobody in their right mind will be aggressive towards them. Rarely Healers used as poisoners or personal physicians for Tribe Leader. Guild prefers those with flexible, thoughtful, meticulous personalities or great medical skills.</li>
-				<li><strong>Tribe Elders.</strong> Though not a Guild, Elders are the mind of the tribe. They share their knowledge and wisdom, helping people self-improve and solve their life problems. And serve as representatives of the tribesmen. Most people have utmost respect for the Elders. Sometimes they can act as judges, negotiators or retinue. You become part of the Elders as soon as you lose the ability to effectively perform your Guild duties and Guild Leader allows you to retire.</li>
-			</ul>
-			<p>Years of work weren't left unnoticed. Everybody in your tribe recognizes you as valuable part of the Guild and respect what you did for the whole tribe. As their Champion and part of the Guild you can always find place to rest, get your share of food and learn local rumors or opinion of other tribesmen on any topic, while in settlements of your tribe.</p>
-		</description>
-		<sheet alt="Guild Member">
-			<description>Years of work weren't left unnoticed. Everybody in your tribe recognizes you as valuable part of the Guild and respect what you did for the whole tribe. As their Champion and part of the Guild you can always find place to rest, get your share of food and learn local rumors or opinion of other tribesmen on any topic, while in settlements of your tribe.</description>
-		</sheet>
-		<rules>
-			<select name="Tribe Guild" type="List" optional="true">
-				<item id="1">Hunters' Guild</item>
-				<item id="2">Foragers' Guild</item>
-				<item id="3">Warriors' Guild</item>
-				<item id="4">Healers' Guild</item>
-				<item id="5">Tribe Elders</item>
-			</select>
 		</rules>
 	</element>
 </elements>
